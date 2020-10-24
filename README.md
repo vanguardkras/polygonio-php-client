@@ -12,7 +12,7 @@
 ### install
 
 ``` 
-composer require polygon-io/api
+composer require ynijar/polygonio-php-client
 ```
 
 ## [Rest API](https://polygon.io/docs/#getting-started)
@@ -26,7 +26,6 @@ The `\PolygonIO\rest\Rest` class export 4 modules:
 
 ```
 <?php
-require __DIR__ . '/vendor/autload.php';
 use PolygonIO\rest\Rest;
 
 $rest = new Rest('your api key')
@@ -42,7 +41,6 @@ You can only use one websocket client by php thread since the event loop is in a
 
 ```
 <?php
-require __DIR__ . '/vendor/autload.php';
 use PolygonIO;
 
 $client = new PolygonIO('your apiKey');

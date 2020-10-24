@@ -1,12 +1,12 @@
 {
-    "name": "polygon-io/api",
+    "name": "ynijar/polygonio-php-client",
     "description": "polygon.io php client",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Julien Prugne",
-            "email": "julien@webeleon.dev"
+            "name": "Vladislav Blinov",
+            "email": "ynijar@mail.dev"
         }
     ],
     "require": {
